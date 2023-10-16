@@ -1,10 +1,10 @@
 import './CSS/index.css';
 
-function Result() {  
+function Result({display}) {  
 
     return (
         <>
-            <div id='result'></div>
+            <div id='result'>{display}</div>
         </>
     )
 }

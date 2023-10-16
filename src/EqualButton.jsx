@@ -1,10 +1,10 @@
 import './CSS/index.css';
 
-function EqualButton() {  
+function EqualButton({displayResult}) {  
 
     return (
         <>
-            <button id='equalButton'>=</button>
+            <button id='equalButton' onClick={displayResult}>=</button>
         </>
     )
 }

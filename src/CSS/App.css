@@ -24,24 +24,28 @@ h1{
 }
 
 #operatorButton button{
+  width: 60px;
   background-color: gray;
   border-radius: 50%;
   height: 60px;
   font-size: 1.2rem;
+  margin: 2px;
 }
 
 #calculatorButton{
+  margin-top: 10px;
   width: 100%;
   display: flex;
 }
 
-#numberButton{
+#numberButton, #scientificButton{
   display: flex;
   flex-wrap: wrap;
-  width: 180px;
+  width: 200px;
 }
 
 #numberButton button{
+  margin: 2px;
   height: 60px;
   background-color: antiquewhite;
   height: 60px;
@@ -50,64 +54,18 @@ h1{
 }
 
 #equalButton{
-  background-color: rgb(97, 92, 92) !important;
+  background-color: rgba(165, 159, 159, 0.158) !important;
   color: white;
 }
 
-/* .CalculatorScreen{
-  width: 100%;
+#trigonometryButton button, #scientificButton button{
+  background-color: gray;
+  width: 60px;
   height: 60px;
-  background-color: rgba(75, 70, 70, 0.773);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 50%;
+  margin: 2px;
 }
 
-.Buttons{
-  width: 75%;
-  margin-top: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
+#history{
+  height: 70%;
 }
-
-.Buttons button{
-  width: 32%;
-  border-radius: 0;
-  border: 1px solid gray;
-}
-
-.ButtonsDiv{
-  display: flex;
-  
-}
-
-.Operators{
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  margin-top: 1em;
-  align-items: flex-end;
-  gap: 3px;
-}
-
-.Operators button{
-  width: 100%;
-  border-radius: 15px;
-  background-color: rgb(210, 116, 69);
-  color: white;
-  font-size: 1.5em;
-}
-
-#Equal{
-  width: 65%;
-  border-radius: 10px;
-  background-color: rgb(148, 57, 24);
-  color: white;
-}
-
-.Notif{
-  color: rgb(139, 18, 117);
-  font-size: 1.5em;
-} */

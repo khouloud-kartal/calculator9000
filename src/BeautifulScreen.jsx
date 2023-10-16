@@ -2,13 +2,13 @@ import './CSS/index.css';
 import History from './History';
 import Result from './Result';
 
-function BeatifulScreen() {  
+function BeatifulScreen({display}) {  
 
     return (
         <>
             <div id='screen'>
                 <History />
-                <Result />
+                <Result display={display}/>
             </div>
         </>
     )

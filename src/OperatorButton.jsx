@@ -1,6 +1,6 @@
 import './CSS/index.css';
 
-function OperatorButton() {
+function OperatorButton({displayNumberButton}) {
 
     const tab = ['-', '+' , '*', '/'];
 
@@ -8,7 +8,7 @@ function OperatorButton() {
         <>
             <div id='operatorButton'>
                 {tab.map((number, index) => (
-                    <button key={index} value={number} >{number}</button>
+                    <button key={index} value={number} onClick={displayNumberButton}>{number}</button>
                 ))}
             </div>
         </>
