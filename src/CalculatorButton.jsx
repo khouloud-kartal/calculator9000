@@ -3,7 +3,7 @@ import ScientificButton from './ScientificButton';
 import NumberButton from './NumberButton';
 import OperatorButton from './OperatorButton';
 
-function CalculatorButton() {  
+function CalculatorButton() { 
 
     return (
         <>

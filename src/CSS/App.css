@@ -17,6 +17,43 @@ h1{
   color: black;
 }
 
+#operatorButton{
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+}
+
+#operatorButton button{
+  background-color: gray;
+  border-radius: 50%;
+  height: 60px;
+  font-size: 1.2rem;
+}
+
+#calculatorButton{
+  width: 100%;
+  display: flex;
+}
+
+#numberButton{
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
+}
+
+#numberButton button{
+  height: 60px;
+  background-color: antiquewhite;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+#equalButton{
+  background-color: rgb(61, 60, 60) !important;
+  color: white;
+}
+
 /* .CalculatorScreen{
   width: 100%;
   height: 60px;

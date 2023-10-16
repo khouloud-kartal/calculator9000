@@ -4,9 +4,7 @@ function EqualButton() {
 
     return (
         <>
-            <div id='equalButton'>
-                
-            </div>
+            <button id='equalButton'>=</button>
         </>
     )
 }
