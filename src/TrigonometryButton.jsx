@@ -1,6 +1,6 @@
 import './CSS/index.css';
 
-function TrigonometryButton() {  
+function TrigonometryButton({displayScientificButton}) {  
 
     const tab = ['tan', 'sin', 'cos']
 
@@ -8,7 +8,7 @@ function TrigonometryButton() {
         <>
             <div id='trigonometryButton'>
                 {tab.map((number, index) => (
-                    <button key={index} value={number} >{number}</button>
+                    <button key={index} value={number} onClick={displayScientificButton}>{number}</button>
                 ))}
             </div>
         </>

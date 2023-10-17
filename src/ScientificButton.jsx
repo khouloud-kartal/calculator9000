@@ -2,14 +2,14 @@ import './CSS/index.css';
 
 import TrigonometryButton from './TrigonometryButton';
 
-function ScientificButton() {  
-    const tab = ['log', 'ln', 'π', '^', '√', '%', 'AC', '(', ')'];
+function ScientificButton({displayScientificButton}) {  
+    const tab = ['log', '^', 'π', 'CE', '√', '%', 'AC', '(', ')'];
     return (
         <>
             <div id='scientificButton'>
-                <TrigonometryButton />
+                <TrigonometryButton displayScientificButton={displayScientificButton}/>
                 {tab.map((number, index) => (
-                    <button key={index} value={number} >{number}</button>
+                    <button key={index} value={number} onClick={displayScientificButton}>{number}</button>
                 ))}
             </div>
         </>

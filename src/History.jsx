@@ -1,10 +1,10 @@
 import './CSS/index.css';
 
-function History() {  
+function History({result}) {  
 
     return (
         <>
-            <div id='history'></div>
+            <div id='history'>{result}</div>
         </>
     )
 }
