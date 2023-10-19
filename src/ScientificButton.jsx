@@ -3,7 +3,7 @@ import './CSS/index.css';
 import TrigonometryButton from './TrigonometryButton';
 
 function ScientificButton({displayScientificButton}) {  
-    const tab = ['log', '^', 'π', 'CE', '√', '%', 'AC', '(', ')'];
+    const tab = ['e', '^', 'π', 'CE', '√', '%', 'AC', '(', ')'];
     return (
         <>
             <div id='scientificButton'>

@@ -4,16 +4,17 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #161a1d;
 }
 
 h1{
-  color: white;
+  color: #ffffff;
 }
 
 #screen{
   width: 100%;
-  height: 80px;
-  background-color: white;
+  height: 150px;
+  background-color: #f5f3f4;
   color: black;
   display: flex;
   flex-direction: column;
@@ -30,7 +31,7 @@ h1{
 
 #operatorButton button{
   width: 60px;
-  background-color: gray;
+  background-color: #a4161a;
   border-radius: 50%;
   height: 60px;
   font-size: 1.2rem;
@@ -52,19 +53,19 @@ h1{
 #numberButton button{
   margin: 2px;
   height: 60px;
-  background-color: antiquewhite;
+  background-color: #ffffff;
   height: 60px;
   width: 60px;
   border-radius: 50%;
 }
 
 #equalButton{
-  background-color: rgba(165, 159, 159, 0.158) !important;
-  color: white;
+  background-color: #660708 !important;
+  color: #ffffff;
 }
 
 #trigonometryButton button, #scientificButton button{
-  background-color: gray;
+  background-color: #b1a7a6;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -73,4 +74,13 @@ h1{
 
 #history{
   height: 70%;
+  font-size: 3em;
+  color: #ba181b;
+  font-weight: bold;
 }
+
+#result{
+  font-size: 1.8rem;
+  color: #660708;
+}
+
