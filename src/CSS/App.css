@@ -7,7 +7,7 @@
   background-color: #161a1d;
   border: 2px solid;
   border-width: 0 0 10px 8px;
-  border-radius: 5px;
+  border-radius: 15px;
   border-color: transparent transparent #525050 #474141;
   background-clip: padding-box; 
 }
@@ -102,5 +102,17 @@ h1{
   color: #660708;
 }
 
+#registerConn{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+
+#register{
+  display: flex;
+  flex-direction: column;
+}
 
 
