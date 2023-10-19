@@ -18,9 +18,8 @@ function App() {
     }else if(result === null){
       setDisplay(display + newValue);
     }else{
-      // setAddCalcul(result + newValue);
-      // setDisplay(addCalcul + newValue);
       setDisplay(display + newValue);
+      // setDisplay(display + newValue);
     }
        
   };
@@ -31,8 +30,7 @@ function App() {
     newResult = newResult.replace('π', '3.14159265359');
     newResult = math.evaluate(newResult);
     setResult(newResult.toString());
-    console.log(result);
-    // setAddCalcul(result);
+    setAddCalcul(newResult);
   }
   
 

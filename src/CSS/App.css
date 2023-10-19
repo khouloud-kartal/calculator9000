@@ -5,6 +5,11 @@
   padding: 2rem;
   text-align: center;
   background-color: #161a1d;
+  border: 2px solid;
+  border-width: 0 0 10px 8px;
+  border-radius: 5px;
+  border-color: transparent transparent #525050 #474141;
+  background-clip: padding-box; 
 }
 
 h1{
@@ -32,7 +37,6 @@ h1{
 #operatorButton button{
   width: 60px;
   background-color: #a4161a;
-  border-radius: 50%;
   height: 60px;
   font-size: 1.2rem;
   margin: 2px;
@@ -56,19 +60,33 @@ h1{
   background-color: #ffffff;
   height: 60px;
   width: 60px;
-  border-radius: 50%;
 }
 
 #equalButton{
   background-color: #660708 !important;
   color: #ffffff;
+  border-width: 0 0 5px 4px;
+  border-radius: 5px;
+  border-color: transparent transparent #999 #ddd;
+  background-clip: padding-box; 
+}
+
+#scientificButton button, #trigonometryButton button, #operatorButton button, #numberButton button {
+  border-width: 0 0 5px 4px;
+  border-radius: 5px;
+  border-color: transparent transparent #999 #ddd;
+  background-clip: padding-box;
+}
+
+
+#equalButton:active, #scientificButton button:active, #trigonometryButton button:active, #operatorButton button:active, #numberButton button:active{
+  border-width: 0 0 0 0;
 }
 
 #trigonometryButton button, #scientificButton button{
   background-color: #b1a7a6;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
   margin: 2px;
 }
 
@@ -83,4 +101,6 @@ h1{
   font-size: 1.8rem;
   color: #660708;
 }
+
+
 
